@@ -1,0 +1,23 @@
+{
+    "name": "2nova/eight-bit-icon",
+    "description": "Icons generator based on http://8biticon.com/ images",
+    "license": "MIT",
+    "keywords": ["icon", "8biticon.com"],
+    "version": "0.1.1",
+    "authors": [
+        {
+            "name": "Ivan Nikitin",
+            "email": "vantoozz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "gregwar/image": "~2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Novanova\\EightBitIcon": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
