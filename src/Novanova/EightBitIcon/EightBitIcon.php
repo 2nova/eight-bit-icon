@@ -4,11 +4,23 @@ namespace Novanova\EightBitIcon;
 
 use Gregwar\Image\Image;
 
+/**
+ * Class EightBitIcon
+ * @package Novanova\EightBitIcon
+ */
 class EightBitIcon
 {
 
+    /**
+     * @var int
+     */
     private $size = 400;
 
+    /**
+     * @param $filename
+     * @param null $sex
+     * @param bool $unfiltered
+     */
     public function generate($filename, $sex = null, $unfiltered = false)
     {
         $DS = DIRECTORY_SEPARATOR;
@@ -33,7 +45,7 @@ class EightBitIcon
                     }
                 );
             }
-            $img->merge(Image::open($images[array_rand($images)]);
+            $img->merge(Image::open($images[array_rand($images)]));
         }
 
         $img->save($filename);
