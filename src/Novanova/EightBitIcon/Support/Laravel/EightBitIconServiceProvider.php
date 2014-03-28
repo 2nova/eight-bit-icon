@@ -1,8 +1,9 @@
-<?php 
+<?php
 
 namespace Novanova\EightBitIcon\Support\Laravel;
 
 use Illuminate\Support\ServiceProvider;
+use Novanova\EightBitIcon\EightBitIcon;
 
 class EightBitIconServiceProvider extends ServiceProvider
 {
