@@ -17,8 +17,8 @@ class EightBitIcon
     private $size = 400;
 
     /**
-     * @param $filename
-     * @param null $sex
+     * @param string $filename
+     * @param string|null $sex
      * @param bool $unfiltered
      */
     public function generate($filename, $sex = null, $unfiltered = false)
